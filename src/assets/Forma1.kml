@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Forma1</name>
+	<gx:CascadingStyle kml:id="__managed_style_2EE4B26A922476FEAF23">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1B8554EB722476FEAF23">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0677D046502476FEAF23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1B8554EB722476FEAF23</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2EE4B26A922476FEAF23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0F3E5FBE492476FDEE25">
+		<name>Saneamento1</name>
+		<description><![CDATA[<div>Testando o Google Earth para usar no React JS usando o Google Maps</div>]]></description>
+		<LookAt>
+			<longitude>-48.19890268082828</longitude>
+			<latitude>-22.78842473349722</latitude>
+			<altitude>418.4972543761678</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>467062.7474923432</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0677D046502476FEAF23</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-47.56184082280392,-22.41506553680307,604.2156138677907 -47.77344771345059,-22.4293694206333,684.5392560895712 -47.8078515946494,-22.54985458983811,611.6503886685156 -47.73517065221973,-22.62991949498801,636.9524280372663 -47.64478207135223,-22.72592212296158,570.4002134899897 -47.48832907683472,-22.63158898891042,574.7412038412482 -47.56184082280392,-22.41506553680307,604.2156138677907 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
