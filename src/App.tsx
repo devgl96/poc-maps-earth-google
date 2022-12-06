@@ -12,9 +12,7 @@ import {
   Marker,
 } from "@react-google-maps/api";
 
-// import pinIcon from "./logo.svg";
 import axios from "axios";
-// const API_KEY_MAP = "AIzaSyBWP0TswCunJgkXvKVeckoSB6CIdPAGwbw";
 
 const pathPolygon = [
   {
